@@ -58,4 +58,4 @@ app.get("/search/:name", (request, response) => {
     result.then((data) => response.json({ data: data })).catch((err) => console.log(err));
 });
 
-app.listen(process.env.PORT, () => console.log("app is running"));
+app.listen(3000, () => console.log("app is running"));
