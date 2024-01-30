@@ -1,0 +1,6 @@
+HOST=localhost
+USER=your_mysql_username
+PASSWORD=your_mysql_password
+DATABASE=your_database_name
+DB_PORT=3306
+PORT=3000
