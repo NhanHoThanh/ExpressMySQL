@@ -58,4 +58,4 @@ app.get("/search/:name", (request, response) => {
     result.then((data) => response.json({ data: data })).catch((err) => console.log(err));
 });
 
-app.listen(3000, () => console.log("app is running"));
+app.listen(3000, "0.0.0.0", () => console.log("app is running"));
